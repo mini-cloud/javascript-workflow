@@ -5,7 +5,7 @@ Javascript finite state machine
 
 Example:
 
-![Alt text](https://g.gravizo.com/g?digraph G {
+![SVG](https://g.gravizo.com/g?digraph G {
   node [shape = ellipse style=filled]; INIT;
   node [shape = ellipse style=none]; 
   INIT -> WAIT_RPC,WAIT_SOCKET [label = "start"];
