@@ -1,8 +1,4 @@
-# javascript-workflow
-Javascript finite state machine 
-
-# Socket Synchronization
-![SocketSynchronization](https://g.gravizo.com/g?digraph finite_state_machine {
+digraph finite_state_machine {
   node [shape = ellipse style=filled]; INIT;
   node [shape = ellipse style=none]; 
   INIT -> WAIT_RPC,WAIT_SOCKET [label = "start"];
@@ -16,4 +12,3 @@ Javascript finite state machine
   DEFINED_SOCKET -> INIT [label = "corrupted"];
   WORKING -> WORKING [label = "defineSocket"];
 }
-)
