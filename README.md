@@ -3,7 +3,7 @@ Javascript finite state machine
 
 # Socket Synchronization
 
-![SocketSynchronization](https://g.gravizo.com/g?digraph finite_state_machine {
+![SocketSynchronization](https://g.gravizo.com/svg? digraph finite_state_machine {
   node [shape = ellipse style=filled]; INIT;
   node [shape = ellipse style=none]; 
   INIT -> WAIT_RPC,WAIT_SOCKET [label = "start"];
