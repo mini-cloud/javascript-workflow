@@ -2,6 +2,7 @@
 Javascript finite state machine 
 
 # Socket Synchronization
+
 ![SocketSynchronization](https://g.gravizo.com/g?digraph finite_state_machine {
   node [shape = ellipse style=filled]; INIT;
   node [shape = ellipse style=none]; 
